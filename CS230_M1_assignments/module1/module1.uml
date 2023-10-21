@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_oUFOAEeIEe6IRonVlIF8YA" name="module1">
+    <eAnnotations xmi:id="_oZQB4EeIEe6IRonVlIF8YA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_oZR3EEeIEe6IRonVlIF8YA" source="codegen">
+        <details xmi:id="_oZSeIEeIEe6IRonVlIF8YA" key="codegenDirectory" value="/module1/src"/>
+        <details xmi:id="_ohgmAEeIEe6IRonVlIF8YA" key="AssociatedSourceCode" value="/module1/src/com/three19/Bicycle.java;1535984004/1;/module1/src/com/three19/Driver.java;1107767238/1;/module1/src/com/three19/TwoWheeled.java;2207211979/1;/module1/src/com/three19/Vehicle.java;1512101541/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ofGLMEeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGLMUeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyQEeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyQUeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyQkeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyQ0eIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyREeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ofGyRUeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ofIncEeIEe6IRonVlIF8YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oeqtYEeIEe6IRonVlIF8YA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oe9oUEeIEe6IRonVlIF8YA" name="three19">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ofAroEeIEe6IRonVlIF8YA" name="Bicycle">
+          <generalization xmi:id="_oftPMEeIEe6IRonVlIF8YA" general="_ofU0sEeIEe6IRonVlIF8YA"/>
+          <ownedAttribute xmi:id="_oft2QUeIEe6IRonVlIF8YA" name="gears">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ofudUEeIEe6IRonVlIF8YA" value="0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ofw5kEeIEe6IRonVlIF8YA" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ofw5kUeIEe6IRonVlIF8YA" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ofyuwUeIEe6IRonVlIF8YA" name="weight">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ofzV0EeIEe6IRonVlIF8YA" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ofzV0keIEe6IRonVlIF8YA" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_ofzV00eIEe6IRonVlIF8YA" value="&quot;&quot;"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of1LAEeIEe6IRonVlIF8YA" name="Bicycle" specification="_ofOHAEeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_of1LAUeIEe6IRonVlIF8YA" name="aColor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of1LAkeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+            <language>java</language>
+            <body>this.color = aColor;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of2ZIEeIEe6IRonVlIF8YA" name="Bicycle" specification="_ofOuEEeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_of3AMEeIEe6IRonVlIF8YA" name="nbrOfGears">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3AMUeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+            <language>java</language>
+            <body>this.gears = nbrOfGears;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of3AMkeIEe6IRonVlIF8YA" name="Bicycle" specification="_ofOuFUeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_of3AM0eIEe6IRonVlIF8YA" name="nbrOfGears">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3ANEeIEe6IRonVlIF8YA" name="theCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3ANUeIEe6IRonVlIF8YA" name="theWeight">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3ANkeIEe6IRonVlIF8YA" name="aColor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3AN0eIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+            <language>java</language>
+            <body>this.gears = nbrOfGears;
+     this.cost = theCost;
+     this.weight = theWeight;
+     this.color = aColor;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of3AOEeIEe6IRonVlIF8YA" name="outputData" specification="_ofPVIEeIEe6IRonVlIF8YA">
+            <language>java</language>
+            <body>System.out.println(&quot;\nBicycle Details:&quot;);
+     System.out.println(&quot;Gears  : &quot; + this.gears);
+     System.out.println(&quot;Cost   : &quot; + this.cost);
+     System.out.println(&quot;Weight : &quot; + this.weight + &quot; lbs&quot;);
+     System.out.println(&quot;Color  : &quot; + this.color);
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of3AOUeIEe6IRonVlIF8YA" name="outputData" specification="_ofPVIUeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_of3AOkeIEe6IRonVlIF8YA" name="bikeText">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_of3AO0eIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+            <language>java</language>
+            <body>System.out.println(&quot;\nBicycle &quot; + bikeText + &quot; Details:&quot;);
+     System.out.println(&quot;Gears  : &quot; + this.gears);
+     System.out.println(&quot;Cost   : &quot; + this.cost);
+     System.out.println(&quot;Weight : &quot; + this.weight + &quot; lbs&quot;);
+     System.out.println(&quot;Color  : &quot; + this.color);
+
+     return this;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ofJ1kEeIEe6IRonVlIF8YA" name="Bicycle">
+            <eAnnotations xmi:id="_ofLqwEeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ofLqwUeIEe6IRonVlIF8YA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ofNf8EeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ofOHAEeIEe6IRonVlIF8YA" name="Bicycle" method="_of1LAEeIEe6IRonVlIF8YA">
+            <eAnnotations xmi:id="_ofOHAkeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ofOHA0eIEe6IRonVlIF8YA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ofOHAUeIEe6IRonVlIF8YA" name="aColor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOHBEeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ofOuEEeIEe6IRonVlIF8YA" name="Bicycle" method="_of2ZIEeIEe6IRonVlIF8YA">
+            <eAnnotations xmi:id="_ofOuEkeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ofOuE0eIEe6IRonVlIF8YA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ofOuEUeIEe6IRonVlIF8YA" name="nbrOfGears">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOuFEeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ofOuFUeIEe6IRonVlIF8YA" name="Bicycle" method="_of3AMkeIEe6IRonVlIF8YA">
+            <eAnnotations xmi:id="_ofOuGkeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_ofOuG0eIEe6IRonVlIF8YA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_ofOuFkeIEe6IRonVlIF8YA" name="nbrOfGears">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOuF0eIEe6IRonVlIF8YA" name="theCost">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOuGEeIEe6IRonVlIF8YA" name="theWeight">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOuGUeIEe6IRonVlIF8YA" name="aColor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofOuHEeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ofPVIEeIEe6IRonVlIF8YA" name="outputData" method="_of3AOEeIEe6IRonVlIF8YA"/>
+          <ownedOperation xmi:id="_ofPVIUeIEe6IRonVlIF8YA" name="outputData" method="_of3AOUeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_ofPVIkeIEe6IRonVlIF8YA" name="bikeText">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ofsoIEeIEe6IRonVlIF8YA" type="_ofAroEeIEe6IRonVlIF8YA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ofRKUEeIEe6IRonVlIF8YA" name="Driver" visibility="public">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_of3nQEeIEe6IRonVlIF8YA" name="main" specification="_ofTmkEeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_of3nQUeIEe6IRonVlIF8YA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_of3nQkeIEe6IRonVlIF8YA" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Example calls to mutators
+     Bicycle myBike = new Bicycle();
+     myBike.setGears(24);
+     myBike.setCost(319.99);
+     myBike.setWeight(13.5);
+     myBike.setColor(&quot;Purple&quot;);
+     System.out.println(&quot;\nmyBike's color is &quot; + myBike.getColor());
+
+
+     // Example of calls to overloaded constructor
+     Bicycle myBike1 = new Bicycle();
+     Bicycle myBike2 = new Bicycle(&quot;Brown&quot;);
+     Bicycle myBike3 = new Bicycle(22);
+     Bicycle myBike4 = new Bicycle(22, 319.99, 13.5, &quot;White&quot;);
+
+     myBike1.outputData(&quot;Nbr 1&quot;);
+     myBike2.outputData(&quot;Nbr 2&quot;);
+     myBike3.outputData(&quot;Nbr 3&quot;);
+     myBike4.outputData(&quot;Nbr 4&quot;);
+
+
+     // Example using method call chaining
+     Bicycle myBike5 = new Bicycle(24, 418.50, 17.2, &quot;Green&quot;);
+     myBike5.setColor(&quot;Peach&quot;).setGears(32).outputData(&quot;Number 5&quot;);
+
+
+     // &quot;IS A&quot; Checks
+     System.out.println(&quot;\n\&quot;IS A\&quot; CHECKS&quot;);
+
+     // focus on myBike6
+     Bicycle myBike6 = new Bicycle();
+
+     if (myBike6 instanceof Bicycle)
+         System.out.println(&quot;myBike6 Instance of Bicycle: True&quot;);
+     else
+         System.out.println(&quot;myBike6 Instance of Bicycle: False&quot;);
+
+     if (myBike6 instanceof TwoWheeled)
+         System.out.println(&quot;myBike6 Instance of TwoWheeled: True&quot;);
+     else
+         System.out.println(&quot;myBike6 Instance of TwoWheeled: False&quot;);
+
+     if (myBike6 instanceof Vehicle)
+         System.out.println(&quot;myBike6 Instance of Vehicle: True&quot;);
+     else
+         System.out.println(&quot;myBike6 Instance of Vehicle: False&quot;);
+
+     if (myBike6 instanceof Object)
+         System.out.println(&quot;myBike6 Instance of Object: True&quot;);
+     else
+         System.out.println(&quot;myBike6 Instance of Object: False&quot;);
+
+     // focus on TwoWheeled
+     TwoWheeled myTwoWheeled = new TwoWheeled();
+
+     if (myTwoWheeled instanceof Bicycle)
+         System.out.println(&quot;\nmyTwoWheeled Instance of Bicycle: True&quot;);
+     else
+         System.out.println(&quot;\nmyTwoWheeled Instance of Bicycle: False&quot;);
+
+     if (myTwoWheeled instanceof TwoWheeled)
+         System.out.println(&quot;myTwoWheeled Instance of TwoWheeled: True&quot;);
+     else
+         System.out.println(&quot;myTwoWheeled Instance of TwoWheeled: False&quot;);
+
+     if (myTwoWheeled instanceof Vehicle)
+         System.out.println(&quot;myTwoWheeled Instance of Vehicle: True&quot;);
+     else
+         System.out.println(&quot;myTwoWheeled Instance of Vehicle: False&quot;);
+
+     if (myTwoWheeled instanceof Object)
+         System.out.println(&quot;myTwoWheeled Instance of Object: True&quot;);
+     else
+         System.out.println(&quot;myTwoWheeled Instance of Object: False&quot;);
+
+     // focus on Vehicle
+     Vehicle myVehicle = new Vehicle();
+
+     if (myVehicle instanceof Bicycle)
+         System.out.println(&quot;\nmyVehicle Instance of Bicycle: True&quot;);
+     else
+         System.out.println(&quot;\nmyVehicle Instance of Bicycle: False&quot;);
+
+     if (myVehicle instanceof TwoWheeled)
+         System.out.println(&quot;myVehicle Instance of TwoWheeled: True&quot;);
+     else
+         System.out.println(&quot;myVehicle Instance of TwoWheeled: False&quot;);
+
+     if (myVehicle instanceof Vehicle)
+         System.out.println(&quot;myVehicle Instance of Vehicle: True&quot;);
+     else
+         System.out.println(&quot;myVehicle Instance of Vehicle: False&quot;);
+
+     if (myVehicle instanceof Object)
+         System.out.println(&quot;myVehicle Instance of Object: True&quot;);
+     else
+         System.out.println(&quot;myVehicle Instance of Object: False&quot;);
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ofTmkEeIEe6IRonVlIF8YA" name="main" isStatic="true" method="_of3nQEeIEe6IRonVlIF8YA">
+            <ownedParameter xmi:id="_ofUNoEeIEe6IRonVlIF8YA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ofUNoUeIEe6IRonVlIF8YA" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ofU0sEeIEe6IRonVlIF8YA" name="TwoWheeled">
+          <generalization xmi:id="_oft2QEeIEe6IRonVlIF8YA" general="_ofVbwEeIEe6IRonVlIF8YA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ofVbwEeIEe6IRonVlIF8YA" name="Vehicle"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_oZZy4EeIEe6IRonVlIF8YA">
+      <eAnnotations xmi:id="_oZboEEeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ofvEYEeIEe6IRonVlIF8YA">
+      <eAnnotations xmi:id="_ofvEYUeIEe6IRonVlIF8YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_oZf5gEeIEe6IRonVlIF8YA" base_Package="_oUFOAEeIEe6IRonVlIF8YA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ofM44EeIEe6IRonVlIF8YA" base_Element="_ofJ1kEeIEe6IRonVlIF8YA"/>
+  <Persistency:JPA1StyledElement xmi:id="_ofwSgEeIEe6IRonVlIF8YA" base_Element="_oft2QUeIEe6IRonVlIF8YA"/>
+  <Persistency:JPA1StyledElement xmi:id="_ofyuwEeIEe6IRonVlIF8YA" base_Element="_ofw5kEeIEe6IRonVlIF8YA"/>
+  <Persistency:JPA1StyledElement xmi:id="_ofzV0UeIEe6IRonVlIF8YA" base_Element="_ofyuwUeIEe6IRonVlIF8YA"/>
+  <Persistency:JPA1StyledElement xmi:id="_ofz84EeIEe6IRonVlIF8YA" base_Element="_ofzV0keIEe6IRonVlIF8YA"/>
+</xmi:XMI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oVOdgEeIEe6IRonVlIF8YA">
+  <modelElement href="module1.uml#_oe9oUEeIEe6IRonVlIF8YA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xc8P8EeIEe6IRonVlIF8YA" sourceAnchor="290.0,0.0" targetAnchor="42.0,25.0" superClass="_xdbYIEeIEe6IRonVlIF8YA" subClass="_xbVGYEeIEe6IRonVlIF8YA">
+    <modelElement href="module1.uml#_oftPMEeIEe6IRonVlIF8YA"/>
+    <visualProperties xmi:id="_Un5nAEnoEe6tZY6VqS--2Q" position="319.0,259.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_xd1n0EeIEe6IRonVlIF8YA" sourceAnchor="84.0,15.0" targetAnchor="26.0,25.0" superClass="_xeM0MEeIEe6IRonVlIF8YA" subClass="_xdbYIEeIEe6IRonVlIF8YA">
+    <modelElement href="module1.uml#_oft2QEeIEe6IRonVlIF8YA"/>
+    <bendpoints xmi:id="_UtstAEnoEe6tZY6VqS--2Q" sourceX="32" targetY="54"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xeM0MEeIEe6IRonVlIF8YA" name="Vehicle" subclassedBy="_xd1n0EeIEe6IRonVlIF8YA">
+    <modelElement href="module1.uml#_ofVbwEeIEe6IRonVlIF8YA"/>
+    <visualProperties xmi:id="_xeM0MUeIEe6IRonVlIF8YA" position="386.0,10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xeM0MkeIEe6IRonVlIF8YA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xdbYIEeIEe6IRonVlIF8YA" name="TwoWheeled" generalizations="_xd1n0EeIEe6IRonVlIF8YA" subclassedBy="_xc8P8EeIEe6IRonVlIF8YA">
+    <modelElement href="module1.uml#_ofU0sEeIEe6IRonVlIF8YA"/>
+    <visualProperties xmi:id="_xdbYIUeIEe6IRonVlIF8YA" position="296.0,74.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xdbYIkeIEe6IRonVlIF8YA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xbVGYEeIEe6IRonVlIF8YA" name="Bicycle" generalizations="_xc8P8EeIEe6IRonVlIF8YA">
+    <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+    <visualProperties xmi:id="_xbVGYUeIEe6IRonVlIF8YA" position="48.0,144.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xbVGYkeIEe6IRonVlIF8YA" label="+"/>
+    <attributes xmi:id="_xbVGY0eIEe6IRonVlIF8YA" defaultValue="0" name="gears">
+      <modelElement href="module1.uml#_oft2QUeIEe6IRonVlIF8YA"/>
+      <stereotypes xmi:id="_xbVGZEeIEe6IRonVlIF8YA" name="JPA1StyledElement">
+        <modelElement href="module1.uml#_ofwSgEeIEe6IRonVlIF8YA"/>
+      </stereotypes>
+      <visibility xmi:id="_xbVGZUeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGZkeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <type xmi:id="_xbVGZ0eIEe6IRonVlIF8YA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xbVGaEeIEe6IRonVlIF8YA" defaultValue="0.0" name="cost">
+      <modelElement href="module1.uml#_ofw5kEeIEe6IRonVlIF8YA"/>
+      <stereotypes xmi:id="_xbVGaUeIEe6IRonVlIF8YA" name="JPA1StyledElement">
+        <modelElement href="module1.uml#_ofyuwEeIEe6IRonVlIF8YA"/>
+      </stereotypes>
+      <visibility xmi:id="_xbVGakeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGa0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <type xmi:id="_xbVGbEeIEe6IRonVlIF8YA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xbVGbUeIEe6IRonVlIF8YA" defaultValue="0.0" name="weight">
+      <modelElement href="module1.uml#_ofyuwUeIEe6IRonVlIF8YA"/>
+      <stereotypes xmi:id="_xbVGbkeIEe6IRonVlIF8YA" name="JPA1StyledElement">
+        <modelElement href="module1.uml#_ofzV0UeIEe6IRonVlIF8YA"/>
+      </stereotypes>
+      <visibility xmi:id="_xbVGb0eIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGcEeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <type xmi:id="_xbVGcUeIEe6IRonVlIF8YA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xbVGckeIEe6IRonVlIF8YA" defaultValue="&quot;&quot;" name="color">
+      <modelElement href="module1.uml#_ofzV0keIEe6IRonVlIF8YA"/>
+      <stereotypes xmi:id="_xbVGc0eIEe6IRonVlIF8YA" name="JPA1StyledElement">
+        <modelElement href="module1.uml#_ofz84EeIEe6IRonVlIF8YA"/>
+      </stereotypes>
+      <visibility xmi:id="_xbVGdEeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGdUeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <type xmi:id="_xbVGdkeIEe6IRonVlIF8YA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xbVGd0eIEe6IRonVlIF8YA" name="Bicycle">
+      <modelElement href="module1.uml#_ofJ1kEeIEe6IRonVlIF8YA"/>
+      <keywords xmi:id="_xbVGeEeIEe6IRonVlIF8YA" keyword="create"/>
+      <stereotypes xmi:id="_xbVGeUeIEe6IRonVlIF8YA" name="LegacyStyledElement">
+        <modelElement href="module1.uml#_ofM44EeIEe6IRonVlIF8YA"/>
+      </stereotypes>
+      <visibility xmi:id="_xbVGekeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGe0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbVGfEeIEe6IRonVlIF8YA">
+        <modelElement href="module1.uml#_ofNf8EeIEe6IRonVlIF8YA"/>
+        <type xmi:id="_xbVGfUeIEe6IRonVlIF8YA" name="Bicycle">
+          <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xbVGfkeIEe6IRonVlIF8YA" name="Bicycle">
+      <modelElement href="module1.uml#_ofOHAEeIEe6IRonVlIF8YA"/>
+      <keywords xmi:id="_xbVGf0eIEe6IRonVlIF8YA" keyword="create"/>
+      <visibility xmi:id="_xbVGgEeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGgUeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbVGgkeIEe6IRonVlIF8YA">
+        <modelElement href="module1.uml#_ofOHBEeIEe6IRonVlIF8YA"/>
+        <type xmi:id="_xbVGg0eIEe6IRonVlIF8YA" name="Bicycle">
+          <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xbVGhEeIEe6IRonVlIF8YA" name="aColor">
+        <modelElement href="module1.uml#_ofOHAUeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGhUeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGhkeIEe6IRonVlIF8YA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xbVGh0eIEe6IRonVlIF8YA" name="Bicycle">
+      <modelElement href="module1.uml#_ofOuEEeIEe6IRonVlIF8YA"/>
+      <keywords xmi:id="_xbVGiEeIEe6IRonVlIF8YA" keyword="create"/>
+      <visibility xmi:id="_xbVGiUeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGikeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbVGi0eIEe6IRonVlIF8YA">
+        <modelElement href="module1.uml#_ofOuFEeIEe6IRonVlIF8YA"/>
+        <type xmi:id="_xbVGjEeIEe6IRonVlIF8YA" name="Bicycle">
+          <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xbVGjUeIEe6IRonVlIF8YA" name="nbrOfGears">
+        <modelElement href="module1.uml#_ofOuEUeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGjkeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGj0eIEe6IRonVlIF8YA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xbVGkEeIEe6IRonVlIF8YA" name="Bicycle">
+      <modelElement href="module1.uml#_ofOuFUeIEe6IRonVlIF8YA"/>
+      <keywords xmi:id="_xbVGkUeIEe6IRonVlIF8YA" keyword="create"/>
+      <visibility xmi:id="_xbVGkkeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGk0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbVGlEeIEe6IRonVlIF8YA">
+        <modelElement href="module1.uml#_ofOuHEeIEe6IRonVlIF8YA"/>
+        <type xmi:id="_xbVGlUeIEe6IRonVlIF8YA" name="Bicycle">
+          <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xbVGlkeIEe6IRonVlIF8YA" name="nbrOfGears">
+        <modelElement href="module1.uml#_ofOuFkeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGl0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGmEeIEe6IRonVlIF8YA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xbVGmUeIEe6IRonVlIF8YA" name="theCost">
+        <modelElement href="module1.uml#_ofOuF0eIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGmkeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGm0eIEe6IRonVlIF8YA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xbVGnEeIEe6IRonVlIF8YA" name="theWeight">
+        <modelElement href="module1.uml#_ofOuGEeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGnUeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGnkeIEe6IRonVlIF8YA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xbVGn0eIEe6IRonVlIF8YA" name="aColor">
+        <modelElement href="module1.uml#_ofOuGUeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGoEeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGoUeIEe6IRonVlIF8YA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xbVGokeIEe6IRonVlIF8YA" name="outputData">
+      <modelElement href="module1.uml#_ofPVIEeIEe6IRonVlIF8YA"/>
+      <visibility xmi:id="_xbVGo0eIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGpEeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_xbVGpUeIEe6IRonVlIF8YA" name="outputData">
+      <modelElement href="module1.uml#_ofPVIUeIEe6IRonVlIF8YA"/>
+      <visibility xmi:id="_xbVGpkeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xbVGp0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbVGqEeIEe6IRonVlIF8YA">
+        <modelElement href="module1.uml#_ofsoIEeIEe6IRonVlIF8YA"/>
+        <type xmi:id="_xbVGqUeIEe6IRonVlIF8YA" name="Bicycle">
+          <modelElement href="module1.uml#_ofAroEeIEe6IRonVlIF8YA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xbVGqkeIEe6IRonVlIF8YA" name="bikeText">
+        <modelElement href="module1.uml#_ofPVIkeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xbVGq0eIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+        <type xmi:id="_xbVGrEeIEe6IRonVlIF8YA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xcbSkEeIEe6IRonVlIF8YA" name="Driver">
+    <modelElement href="module1.uml#_ofRKUEeIEe6IRonVlIF8YA"/>
+    <visualProperties xmi:id="_xcbSkUeIEe6IRonVlIF8YA" position="557.0,57.0" size="332.0,222.0"/>
+    <visibility xmi:id="_xcbSkkeIEe6IRonVlIF8YA" label="+"/>
+    <operations xmi:id="_xcbSk0eIEe6IRonVlIF8YA" name="main" staticOperation="true">
+      <modelElement href="module1.uml#_ofTmkEeIEe6IRonVlIF8YA"/>
+      <visualProperties xmi:id="_HTUGUEeJEe6IRonVlIF8YA"/>
+      <visibility xmi:id="_xcbSlEeIEe6IRonVlIF8YA" label="+"/>
+      <cardinality xmi:id="_xcbSlUeIEe6IRonVlIF8YA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xcbSlkeIEe6IRonVlIF8YA" name="args">
+        <modelElement href="module1.uml#_ofUNoEeIEe6IRonVlIF8YA"/>
+        <cardinality xmi:id="_xcbSl0eIEe6IRonVlIF8YA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_xcbSmEeIEe6IRonVlIF8YA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
